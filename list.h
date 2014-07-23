@@ -1,3 +1,4 @@
+#ifndef WIN32
 #ifndef LIST_H
 #define LIST_H
 #include <pthread.h>
@@ -27,3 +28,4 @@ void destroyList(List*);
 
 
 #endif // LIST_H
+#endif // WIN32

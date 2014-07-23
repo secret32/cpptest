@@ -1,3 +1,4 @@
+#ifndef WIN32
 #ifndef SHELTON_NET_H
 #define SHELTON_NET_H
 
@@ -21,3 +22,4 @@ sechost* getSecHost(const char* url);
 void service(void);
 
 #endif // SHELTON_NET_H
+#endif // WIN32

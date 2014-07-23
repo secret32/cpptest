@@ -1,3 +1,4 @@
+#ifndef WIN32
 #include "shelton_net.h"
 //#include <unistd.h>
 #include <string.h>
@@ -85,3 +86,5 @@ sechost* getSecHost(const char *url)
 {
     return NULL;
 }
+
+#endif // WIN32

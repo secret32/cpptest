@@ -1,3 +1,4 @@
+#ifndef WIN32
 #include "list.h"
 #include <stdlib.h>
 #include <unistd.h>
@@ -64,3 +65,4 @@ void destroyList(List* list)
     if(list->useDefault)
         free(list);
 }
+#endif // WIN32
