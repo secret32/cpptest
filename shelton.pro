@@ -3,13 +3,18 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c \
+SOURCES += \
     shelton_net.c \
     shelton.c \
-    list.c
+    list.c \
+    clipboard.cpp \
+    main.cpp \
+    thread.cpp
 
 HEADERS += \
     shelton.h \
     shelton_net.h \
-    list.h
+    list.h \
+    clipboard.h \
+    thread.h
 
